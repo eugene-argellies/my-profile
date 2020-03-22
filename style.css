@@ -1,0 +1,87 @@
+
+body{
+	background-color: rgb(240,240,240);
+	color: rgb(30,30,30);
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	font-family: 'Baloo 2', cursive;
+	font-size: 40px;
+	color: #0070ff;
+}
+h2,h3{
+	font-family: 'Baloo 2', cursive;
+	font-weight: 500;
+	font-size: 25px;
+	font-weight: lighter;
+	color: rgb(100,100,100)
+}
+a{
+	text-decoration: none;
+	color: rgb(0,100,180)
+}
+a:hover {
+	color: red;
+}
+p{
+	color: #0070ff;
+	font-size: 14px;	
+}
+
+
+
+/* Custom design with class (99% of the design) */
+.container{
+	width: 700px;
+	margin: 50px auto;
+}
+
+@media(max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}	
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #0070ff;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 5px;
+	margin: 15px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+.list-inline{
+	list-style: none; 
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
